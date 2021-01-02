@@ -12,7 +12,6 @@ function Home() {
         setCepNumber('');
     }
 
-
     return (
         <form onSubmit={handleSubmit}>
             <div>
@@ -30,8 +29,8 @@ function Home() {
     )
 }
 
-function useCepPromise() {
-    cep(7864000)
+function useCepPromise(cepCode) {
+    cep(cepCode)
         .then((result) => {
             console.log(result);
         })
