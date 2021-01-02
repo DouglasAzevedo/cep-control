@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev" : "next dev"
+    "dev": "next dev"
   },
   "repository": {
     "type": "git",
@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/DouglasAzevedo/cep-control#readme",
   "dependencies": {
+    "cep-promise": "^4.0.3",
     "next": "^10.0.4",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
